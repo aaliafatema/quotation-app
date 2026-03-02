@@ -499,7 +499,7 @@ export default function App() {
   const reset = () => { setStep(0); setOcrData(null); setImagePrev(null); setDone(false); };
 
   return (
-    <div style={{ minHeight: "100vh", minHeight: "100dvh", background: "linear-gradient(160deg,#030712 0%,#0a0d14 60%,#020a08 100%)" }}>
+    <div style={{ minHeight: "100vh", background: "linear-gradient(160deg,#030712 0%,#0a0d14 60%,#020a08 100%)" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
         *, *::before, *::after { font-family: 'IBM Plex Sans', sans-serif; box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; }
